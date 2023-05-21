@@ -1,0 +1,166 @@
+body{
+    margin: 0;  
+    background-color: black;
+}
+#main{
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    left: 5vw;
+    top: 5vh;
+    border-radius: 20px;
+    background-color: wheat;
+}
+.uiBtn{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transition: all 0.3s;
+    transform: translate(-50%, -50%);
+    color: black;
+    cursor: pointer;
+}
+.uiBtn:hover{
+    background-color: blue;
+    transform: translate(-50%, -50%) scale(1.1);
+    color: white;
+}
+#startUI, #gameUI, #overUI{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex: 1;
+    flex-direction: column;
+}
+
+.topAnswer{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answerPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+    border-bottom: 2px black solid;
+    width: 20px;
+}
+.people{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer{
+    background-color: green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stand{
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    width: 150px;
+    height: 300px;
+    margin-left: -150px;
+}
+.peopleTop{
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 148px;
+}
+.peopleHead{
+    height: 75px;
+    width: 75px;
+    border:2px black solid;
+    border-radius:100px;
+    position: relative;
+    left: 110px;
+}
+.peopleBody{
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 148px;
+}
+.peopleLArm{
+    background-color: black;
+    position: relative;
+    top: -75px;
+    left: 135px;
+    width: 1.5px;
+    height: 50px;
+    transform: rotateZ(30deg);
+}
+.peopleRArm{
+    background-color: black;
+    position: relative;
+    top: -126px;
+    left: 161px;
+    width: 1.5px;
+    height: 50px;
+    transform: rotateZ(-30deg);
+}
+.peopleLLeg{
+    background-color: black;
+    position: relative;
+    top: -105px;
+    left: 135px;
+    width: 1.5px;
+    height: 50px;
+    transform: rotateZ(30deg);
+}
+.peopleRLeg{
+    background-color: black;
+    position: relative;
+    top: -156px;
+    left: 161px;
+    width: 1.5px;
+    height: 50px;
+    transform: rotateZ(-30deg);
+}
+
+.input{
+    width: 20%;
+    min-width: 150px;
+    height: 20px;
+
+}
+.btn{
+    min-height: 20px;
+    width: fit-content;
+    padding: 10px 30px;
+    min-width: 150px;
+    background-color: yellow;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition: all 0.3s;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: lightblue;
+    columns: white;
+
+}
